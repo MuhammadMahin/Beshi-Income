@@ -1,0 +1,9 @@
+<resources>
+    <style name="TrueEarning" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/sexy_blue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/green</item>
+        <item name="android:windowBackground">@drawable/first_screen</item>
+    </style>
+</resources>

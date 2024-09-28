@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#50C2C9</color>
+    <color name="purple_500">#50C2C9</color>
+    <color name="purple_700">#50C2C9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sexy_blue">#55B32C</color>
+    <color name="grey">#808080</color>
+    <color name="gold">#ffd700</color>
+    <color name="green">#008000</color>
+    <color name="transparent">#00000000</color>
+
+//my Colors
+    <color name="red">#FF0000</color>
+    <color name="red_smoke">#FF1919</color>
+    <color name="white_smoke">#F5F5F5</color>
+
+    
+    //CHECK INTERNET COLOR
+    <color name="colorOnPrimaryDemo">#fff</color>
+    <color name="colorPrimaryDemo">#554511</color>
+    <color name="colorPrimaryLightDemo">#EEE3AB</color>
+    <color name="colorAccentDemo">#665815</color>
+
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+    <color name="item_color_active">#55B32C</color>
+    <color name="item_color_inactive">#808080</color>
+
+    //indicator color
+    <color name="inactive">#808080</color>
+    <color name="active">#55B32C</color>
+
+
+</resources>

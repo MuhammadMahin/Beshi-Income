@@ -1,0 +1,316 @@
+<resources>
+
+
+
+    <string name="home_interest">e312843012607f74</string>
+    <string name="step_one_interest">6047ba28e1841b8c</string>
+    <string name="step_two_interest">a452351d620a8259</string>
+    <string name="mahin_interest">72f086af6a5e5e73</string>
+    <string name="earning_interest">d87b241ebf9c7fdb</string>
+    <string name="profile_interest">773e85f5cec63f61</string>
+    <string name="settings_interest">e312843012607f74</string>
+
+    <string name="reward_pro">74da41f6d61bd177</string>
+
+
+
+    <string name="sdk_key">Gd0gPkFV2r3TtASBs6eLk3wy5fzPPfMhTMc0AS8Sh0XI0bWfl3MPsto446xxHmT20dUZ6yGHsfrpqgRPlCDAmx</string>
+
+
+    <string name="app_name">বেশি ইনকাম</string>
+
+    <string name="device_id">9248CAF4496FB84CD6113C0969F31629</string>
+
+    <string name="grid">grid</string>
+    <string name="the_s_care">The S Care</string>
+    <string name="website_loading">Website Loading</string>
+    <string name="button">Button</string>
+    <string name="title">Honest Earning</string>
+    <string name="rare_description">Please rate us on play store. It helps us doing even better</string>
+    <string name="app_head_name">True Earning</string>
+    <string name="next">NEXT</string>
+    <string name="point">0/16</string>
+    <string name="true_earning_d">points description true earning</string>
+
+
+    //Headings
+    <string name="heading_one">10minutesjob.com</string>
+    <string name="heading_two">10minutesjob.com</string>
+    <string name="heading_three">Quick &amp; Easy Payments</string>
+    <string name="heading_fourth">Payment Guarantee</string>
+    <string name="heading_fifth">Trusted Earning</string>
+
+    //Description
+    <string name="desc_one">অনলাইনে আয়ের বিশ্বস্ত এই <b>Beshi Income</b> অ্যাপে তোমাকে স্বাগতম! সম্পূর্ন বিনামূল্যে শুরু করো তোমার স্বপ্ন পূরনের পথযাত্রা…</string>
+    <string name="desc_two">কিছু ছোট-খাটো টাস্ক কমপ্লিট করে তুমিও পারবে এই অ্যাপ থেকে সহজেই তোমার প্রথম আয় শুরু করতে… কি মজা! তাই না?</string>
+    <string name="desc_three">Easily get your money in your bKash by withdraw</string>
+    <string name="desc_fourth">100% Guarantee for payments!</string>
+    <string name="desc_fifth">অনলাইন থেকে আয়ের সত্য ও বাস্তব অভিজ্ঞতা শেয়ার করবো তোমাদের সাথে! সো একদম ই মিস করা যাবে না!</string>
+    <string name="mahin">mahin</string>
+    <string name="zero_zero">0</string>
+    <string name="zero_by_ten">0/21</string>
+    <string name="b">Balance</string>
+    <string name="ply">Play times</string>
+    <string name="username">Username</string>
+
+    <string name="full_name">Full name</string>
+
+    <string name="email">Email</string>
+
+    <string name="_phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="update">Update</string>
+    <string name="load">Loading…</string>
+    <string name="must_update">অনুগ্রহ করে আপডেট_নাউ এ ক্লিক করে নতুন ভার্সন এ আপডেট করুন!</string>
+    <string name="update_now">UPDATE NOW</string>
+    <string name="available">New Updates Available!</string>
+    <string name="slogan">A Trusted Earning Solution</string>
+    <string name="retry">Retry</string>
+    <string name="vpn_conn">Please connect and then try again</string>
+    <string name="no_vpn">No VPN</string>
+    <string name="oops">No Internet</string>
+    <string name="no_internet">তোমার ইন্টারনেট কানেকশন অন করে আবার চেস্টা করো!</string>
+    <string name="nov_pn">United States কানেক্ট করে পুনরায় ট্রাই করো…</string>
+    <string name="connect">CONNECT—>></string>
+    <string name="wc">WELCOME</string>
+    <string name="journey">SignUP to start Earn Money</string>
+    <string name="full_">Full Name</string>
+    <string name="us">Username</string>
+    <string name="mail">Email</string>
+    <string name="phone">Phone Number: e.g:- 01919123456</string>
+    <string name="psw">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="go_login">Already Have an Account? LogIn</string>
+    <string name="er">Earn Reward</string>
+    <string name="skip">Skip</string>
+    <string name="back">Back</string>
+    <string name="nxt">NEXT</string>
+    <string name="need_help">Need help? See Video</string>
+    <string name="install_now">connect now—>></string>
+    <string name="connect_now">connect vpn—>></string>
+    <string name="new_user_sign_up">New User? click to REGISTER—></string>
+    <string name="hello_there">Beshi Income, WELCOME BACK</string>
+    <string name="login">LOGIN</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="government_info">Government Info</string>
+
+    <string name="your_playtimes_10_10">Your PLAY_TIMES: <b>01</b></string>
+    <string name="earned_reward_50_00">Earned Reward: <b>80</b> কয়েন!</string>
+    <string name="save_button">SAVE 1 PLAY_TIME + 80 COINS</string>
+    <string name="congratulations">CONGRATULATIONS!!</string>
+    <string name="demo">Demo</string>
+
+
+    <string name="main_heading1">ইনকামের জন্য কি নিয়ম মানতে হবে?</string>
+    <string name="heading1_1">আপনাকে এই বিজ্ঞাপন দেখার জন্য টাকা দেওয়া হবে!</string>
+    <string name="heading2_1">10minutesjob.com</string>
+    <string name="heading3_1">VPN ব্যবহার করুন!</string>
+    <string name="heading4_1">United State সিলেক্ট করে কানেক্ট করুন!</string>
+
+
+    <string name="main_heading2">অনলাইন থেকে মূলত কয়ভাবে আয় করা যায়?</string>
+    <string name="heading1_2">অনলাইন থেকে ৩ ভাবে আয় করা যায়!</string>
+    <string name="heading2_2">ফ্রিলান্সিং করে। 10minutesjob.com</string>
+    <string name="heading3_2">10minutesjob.com</string>
+    <string name="heading4_2">10minutesjob.com</string>
+
+
+    <string name="main_heading3">ফ্রিল্যান্সিং এর সবচেয়ে জনপ্রিয় সাইট কোনটি?</string>
+    <string name="heading1_3">10minutesjob.com</string>
+    <string name="heading2_3">10minutesjob.com</string>
+    <string name="heading3_3">10minutesjob.com</string>
+    <string name="heading4_3">উপরেরে সবগুলোই।</string>
+
+
+    <string name="main_heading4">ওয়েব ডেভেলপমেন্ট করে মাসে কত টাকা আয় করা যায়?</string>
+    <string name="heading1_4">১-৫ হাজার ডলার। অর্থাৎ,</string>
+    <string name="heading2_4">১- ৫ লক্ষ টাকা পর্যন্ত।</string>
+    <string name="heading3_4">এটা কাজের উপর নির্ভরশীল।</string>
+    <string name="heading4_4">কম বা বেশিও হয়ে থাকে।</string>
+
+
+    <string name="main_heading5">ওয়েব ডেভেলপমেন্ট করে কিভাবে ?</string>
+    <string name="heading1_5">HTML, CSS, BOOTSTRAP</string>
+    <string name="heading2_5">JAVASCRIPT, REACT এবং</string>
+    <string name="heading3_5">Python, Laravel ইত্যাদি ব্যবহার করে।</string>
+    <string name="heading4_5">WordPress, Elementor</string>
+
+
+    <string name="main_heading6">বিশ্বস্ত অ্যাপ কোনটি?</string>
+    <string name="heading1_6">যেই অ্যাপটি এখন ব্যবহার করছেন!</string>
+    <string name="heading2_6">Beshi Income and 10minutesjob.com সত্যিকার পেমেন্ট নিশ্চিত করে!</string>
+    <string name="heading3_6">এটা সবার থেকে আলাদা বৈশিষ্ঠ্যের!</string>
+    <string name="heading4_6">পেমেন্ট শতভাগ নিশ্চয়তা!</string>
+
+
+    <string name="main_heading7">App ডেভেলপ কি সহজ না কঠিন?</string>
+    <string name="heading1_7">আসলে খুবই সহজ। তবে,</string>
+    <string name="heading2_7">দৃঢ় ইচ্ছা আর মনোবল থাকা লাগবে।</string>
+    <string name="heading3_7">নিয়মিত ভালো করে কাজ শিখতে হবে।</string>
+    <string name="heading4_7">কিছু উন্নতমানের App তৈরি করতে হবে।</string>
+
+
+    <string name="main_heading8">কোথা থেকে App Development শিখবো?</string>
+    <string name="heading1_8">ফ্রি তে প্রথমে YouTube থেকে শিখতে হবে।</string>
+    <string name="heading2_8">Contact Us to Develop App</string>
+    <string name="heading3_8">ফলো ProgrammingHero</string>
+    <string name="heading4_8">ফেসবুকে App Dev গ্রুপে জয়েন করো।</string>
+
+
+    <string name="main_heading9">কিভাবে বেশি বোনাস পাবো?</string>
+    <string name="heading1_9">প্রতিদিন ব্যবহার করো।</string>
+    <string name="heading2_9">নিয়ম মেনে ADS দেখো।</string>
+    <string name="heading3_9">Beshi Income App-শেয়ার করো</string>
+    <string name="heading4_9">আমাদের আরও অ্যাপ আছে, ব্যবহার করো! -> 10minutesjob.com</string>
+
+
+    <string name="main_heading10">অনলাইন ইনকামের প্রথম শর্ত কি?</string>
+    <string name="heading1_10">কিছু স্কিল শেখা।</string>
+    <string name="heading2_10">কিছু প্রমাণ দাঁড় করানো।</string>
+    <string name="heading3_10">কাজে অ্যাপ্লাই করা।</string>
+    <string name="heading4_10">কাজ পেলে সঠিকভাবে করা।</string>
+
+
+    <string name="main_heading11">ADS থেকে কেমন ইনকাম হয়?</string>
+    <string name="heading1_11">প্রতি 1000 Ads view তে গড়ে প্রায় $1 পাওয়া যায়।</string>
+    <string name="heading2_11">কম-বেশি হতে পারে!</string>
+    <string name="heading3_11">কোয়ালিটির উপর নির্ভরশীল।</string>
+    <string name="heading4_11">৫০% তোমরা পাবে!</string>
+
+    <string name="detail_rule">সকল বিস্তারিত জানতে ক্লিক করুন:</string>
+
+
+    <string name="how_to_request">কিভাবে Withdraw Request সেন্ড করবেন?</string>
+    <string name="how_to_request1">কিভাবে Withdraw সেন্ড করবেন? এবং কত কয়েন কত টাকা? বিস্তারিত পড়তে ক্লিক…</string>
+    <string name="request_details1">☛ মোবাইল রিচার্জের জন্য ফোন নাম্বার দিন এবং উইথড্র বাটনে ক্লিক করুন!</string>
+    <string name="request_details2">☛ বিকাশ সেন্ড-মানির জন্য বিকাশ নাম্বার দিন এবং উইথড্র বাটনে ক্লিক করুন!</string>
+    <string name="request_details3">☛ নগদ সেন্ড-মানির জন্য নগদ নাম্বার দিন এবং উইথড্র বাটনে ক্লিক করুন!</string>
+    <string name="request_details5">☛ নগদ সেন্ড-মানির জন্য নগদ নাম্বার দিন এবং উইথড্র বাটনে ক্লিক করুন!</string>
+    <string name="request_details6">☛ পাবজি, ইউছি কিংবা ফ্রি-ফায়ার ডায়মন্ড এর জন্য আমাদের ফেইজবুক পেজে যোগাযোগ করুন!</string>
+    <string name="request_details7">⭐⭐⭐ আপনার পেমেন্ট Request আমাদের কাছে অত্যন্ত মূল্যবান। আপনার Request পাওয়ার পর আমরা এটা ভেরিফাই করবো যে, আপনি আমাদের নিয়মগুলো মেনে কাজ করেছেন কি না? অতঃপর, আপনার পেমেন্ট দিয়ে দেয়া হবে এবং কয়েন কেটে নেওয়া হবে।</string>
+    <string name="request_details8">📣 দৃষ্টি আকর্ষনঃ</string>
+    <string name="request_details4">☛ উইথড্র সেন্ড করার পর অবশ্যই <b>বেশি ইনকাম</b> এর Facebook page এ যোগাযোগ করতে হবে!</string>
+
+    <string name="app_rules">☛App এর বিস্তারিত নিয়মকানুনঃ Click here</string>
+    <string name="app_rules1">💝💝💝 প্রথমেই আপনাকে <b>Beshi Income</b> এর পক্ষ থেকে জানাচ্ছি শুভেচ্ছা ও অভিনন্দন!💝💝💝</string>
+
+    <string name="app_rules2">☛ এই অ্যাপে আপনাকে এড বা বিজ্ঞাপন দেখার জন্য টাকা দেয়া হবে। কাজেই, বিজ্ঞাপনগুলো দেখতে হবে। পয়েন্ট করার সময় এড বা বিজ্ঞাপন আসলে 6s (৬ সেকেন্ড) দেখার পর কেটে দিবেন। তবে ভিডিও এড আসলে পুরোটাই দেখতে হবে -এই পেজের সবগুলো নিয়ম ভালো করে পড়ে নিবেন আগে---></string>
+    <string name="app_rules3">☛ এই অ্যাপে এ ১ দিনে ১৮০০ থেকে ২০০০ টাকার বেশি করবেন না। প্রয়োজনে আমাদের আরও অন্যান্য App গুলো ব্যবহার করুন! -> 10minutesjob.com</string>
+    <string name="app_rules4_">গেইম খেলার নিয়মকানুনঃ</string>
+    <string name="app_rules4">গেইম খেলার নিয়মকানুনঃ</string>
+    <string name="app_rules5">☛ গেইম খেলার নিয়ম —</string>
+    <string name="app_rules6">▶ হোমপেজ থেকে পরপর 03 টি স্টেপ কমপ্লিট করার পর CONGRATULATIONS Page এ নিয়ে যাবে। সেখানে <b>Save Taka</b> বাটোন আসবে।</string>
+    <string name="app_rules7">▶ <b>Save Taka</b> বাটোনে ক্লিক করার পর <b>১টি অ্যাড</b> আসবে, অবশ্যই সেই <b>অ্যাড টা ক্লিক</b> করতে হবে।</string>
+    <string name="app_rules8">▶ ক্লিক করার পর <b>Website</b> এ নিয়ে গেলে <b>১ মিনিট বা 60s অবশ্যই</b> অপেক্ষা করতে হবে। তারপর Back বাটোন চেপে ফিরে আসবেন। অন্যথায়, <b>PlayStore</b> এ নিয়ে গেলে যেই অ্যাপ টা দেখাবে, সেটা <b>install</b> করবেন, পুরোপুরি ইনষ্টোল হয়ে গেলে পরে আন-ইনষ্টোল করে দিতে পারবেন!</string>
+    <string name="app_rules10">▶ উপরে বলা নিয়ম মেনে কুইজ গেইম খেলতে হবে এবং প্রত্যেক বার <b>১টি করে অ্যাডে ক্লিক</b> করতে হবে।</string>
+    <string name="app_rules11">▶ প্রত্যেক বার সম্পুর্ন প্লে করার জন্য <b>১৫ টাকা</b> করে পাবেন।</string>
+
+
+    <string name="app_rules12">স্পিনার গেইমের নিয়মকানুনঃ</string>
+    <string name="app_rules13">▶ <b>১</b> দিনে <b>৫০</b> বার স্পিনার গেইম খেলতে পারবেন। তবে স্পিনার গেইম খেলে <b>কোনো টাকা পাবেন না</b></string>
+    <string name="app_rules14">▶ স্পিনার গেম টেস্ট করার জন্য দেয়া হয়েছে!</string>
+    <string name="app_rules15">নিয়ম মেনে কাজ না করলে কি হবে?</string>
+    <string name="app_rules16">নিয়ম মেনে কাজ করার অনুরোধ করা হলো! যদি তবুও কেউ অমান্য করেন, তবে পেমেন্ট ৫০% পাবেন অথবা কয়েন কেটে নেয়া হবে।</string>
+    <string name="app_rules17"><b>টিপসঃ</b> কুইজ গেইমের <b>অ্যাড ক্লিকের</b> কাজ টা সঠিকভাবে করলেই <b>পেমেন্ট নিশ্চিতভাবেই 100% পেয়ে যাবেন!</b></string>
+    <string name="app_rules18">✋🏻 উপরের সব কিছু পড়েও যারা ঠিকভাবে বুঝতে পারেননি, তারা <b>নিচের 👇 Video</b> আইকনে ক্লিক করে দেখে নিবেন।</string>
+    <string name="app_rules19">Version</string>
+    <string name="app_rules20">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules21">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules22">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules23">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules24">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules25">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules26">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules27">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+    <string name="app_rules28">▶ এই অ্যাপের বিস্তারিত নিয়মকানুন দেখুনঃ</string>
+
+    <string name="more_apps">টাকা ইনকামের আরও Apps</string>
+
+    <string name="balance">Coins</string>
+    <string name="balance_">See Coins</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="close_now">close now</string>
+    <string name="connect_now_i"><![CDATA[connect now—>]]></string>
+    <string name="content_loading">Content Loading…</string>
+    <string name="loading_ads">Do not click while Ads Loading…</string>
+    <string name="e_g">Example:- 017123456789</string>
+
+    <string name="x">X</string>
+    <string name="available_coins">Available Coins</string>
+    <string name="withdraw">withdraw</string>
+    <string name="settings">Settings</string>
+    <string name="instructions">Instructions</string>
+    <string name="more_instructions">More Instructions</string>
+    <string name="share_now">Share with friends👩‍</string>
+    <string name="app_rules_">App Rules</string>
+    <string name="app_rules30">Version</string>
+    <string name="version"><b>v1</b></string>
+
+    <string name="update_">Last Updated</string>
+    <string name="app_rules31_"><b>January 25, 2023</b></string>
+    <string name="app_rules32">Terms &amp; Condition</string>
+    <string name="app_rules33_"><b>Copyright ©</b></string>
+    <string name="app_rules33__">All images and icons that are available in True Earning App are free and its credit goes to their respective owners(icons8.com). All icon are Licensed under the creative Commons Zero (CCO) license. Please contact us if you find any image or icon that violates any rules and we will remove that.</string>
+    <string name="app_rules33___">We always try to satisfy our users. If you have faced any trouble to get paid your money, please do not forget to contact on True Earning Official FB page!</string>
+    <string name="app_rules33">Thanks All.</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us:</string>
+    <string name="how_to_work">কিভাবে কাজ করবেন?👇</string>
+    <string name="sign_in_to_continue">Have an Account? Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="to_true">Welcome to <b>Beshi Income</b></string>
+    <string name="a_trusted">টাকা ইনকামের একটি বিশ্বস্ত অ্যাপ</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="update_new_version">Update App —> New Version</string>
+    <string name="go_next">go next</string>
+    <string name="home">Home</string>
+    <string name="withdraw__">মিনিমাম উইথড্র 2000 Taka</string>
+    <string name="please_wait_few_seconds">Please wait…few seconds</string>
+    <string name="click_to_see">Click here</string>
+    <string name="play_to_win_cash">Play to Win Cash</string>
+    <string name="play_spinner_games">Play Spinner Games</string>
+    <string name="save_daily_bonus">Save Daily Bonus</string>
+    <string name="how_to_work_">কিভাবে কাজ করবেন তার ভিডিও👇</string>
+    <string name="a1">Login with demo username and password if you fell any trouble to make new account!</string>
+    <string name="p1">Password: guest1234</string>
+    <string name="u1">Username: guest</string>
+    <string name="dmo">Demo User</string>
+    <string name="home1">টাকা-আয়</string>
+    <string name="home2">সু-স্বাস্থ্য</string>
+    <string name="home3">স্মার্টনেস</string>
+    <string name="home4">ভালোবাসা</string>
+    <string name="home5">ফাস্ট-ফুড</string>
+    <string name="home6">জ্ঞান-বিজ্ঞান</string>
+    <string name="un">Guest Account:</string>
+    <string name="dtsl">অ্যাপ সম্পর্কে বিস্তারিত পাবেন এই ভিডিওতে</string>
+    <string name="coin_price">লক্ষ্যণীয় যে, 1200 ভার্চুয়াল টাকা = 20 টাকা; 2000 ভার্চুয়াল টাকা = 30 টাকা; 5000 ভার্চুয়াল টাকা = 110 টাকা; 10,000 ভার্চুয়াল টাকা = 250 টাকা; 25,000 ভার্চুয়াল টাকা = 600 টাকা আর 50,000 ভার্চুয়াল টাকা = 1500 টাকা সরাসরি বিকাশ বা নগদে নিতে পারবেন। তবে 100 টাকার কম হলে শুধু-মাত্র মোবাইল রিচার্জ করে দেয়া হবে! ধন্যবাদ!</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="user_ip">User Ip</string>
+    <string name="home_button">প্লে শুরু করুন</string>
+    <string name="save_coin">প্লে টাইম+কয়েন সেভ করুন</string>
+    <string name="earned_reward_50_">Earned_reward: 10</string>
+    <string name="final_step">ফাইনাল স্টেপে যান</string>
+    <string name="success">Successfully Saved!!!</string>
+    <string name="congrast">Yessss!!!!  Saved Money</string>
+    <string name="app_name_new">বেশি ইনকাম</string>
+    <string name="time">Time</string>
+    <string name="please_login">PLease Login</string>
+    <string name="my_balance">My Balance</string>
+    <string name="tap_for_playtimes">Tap for PlayTimes</string>
+    <string name="available_taka">Available Taka</string>
+    <string name="withdraw1">withdraw</string>
+    <string name="ply_now">এক্ষুনি প্লে করতে ক্লিক</string>
+    <string name="withdraw_history">Withdraw History:</string>
+    <string name="_00_00_taka">00 : 00 Taka</string>
+    <string name="withdraw_date">Withdraw Date : 00-00-2023</string>
+    <string name="_1200">মিনিমাম উইথড্র 1200 ভার্চুয়াল টাকা</string>
+    <string name="ff">ফাইনাল প্লে করুন</string>
+    <string name="play_to_win_15_taka">Play to Win: 15 Taka</string>
+    <string name="step_3_of_3">Step: 3 of 3</string>
+    <string name="step_2_of_3">Step: 2 of 3</string>
+    <string name="play_to_win_10_taka">Play to Win: 10 Taka</string>
+    <string name="againPly">আবারও প্লে করুন</string>
+
+</resources>

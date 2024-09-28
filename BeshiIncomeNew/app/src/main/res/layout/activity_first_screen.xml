@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstScreen"
+    android:background="@color/white"
+    android:padding="20dp"
+    android:orientation="horizontal">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/xxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardElevation="14dp"
+        app:cardCornerRadius="10dp"
+        app:strokeColor="@color/grey">
+
+        <ImageView
+            android:id="@+id/splashImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name"
+            android:transitionName="logo_image"
+            app:srcCompat="@drawable/logo_a" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <TextView
+        android:id="@+id/splashText"
+        android:layout_below="@+id/xxx"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="logo_text"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/green"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+         />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/a_trusted"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:includeFontPadding="false"
+        android:layout_below="@+id/splashText" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingLottie"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/process"
+        android:layout_above="@id/splashBottomText"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/splashBottomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/to_true"
+        android:textColor="#25d366"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+</RelativeLayout>

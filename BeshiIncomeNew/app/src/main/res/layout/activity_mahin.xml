@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/active_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".MahinActivity">
+
+    <RelativeLayout
+        android:id="@+id/mahin_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/green"
+        android:clickable="true"
+        android:focusable="true">
+
+        <include
+            android:id="@+id/hdr"
+            layout="@layout/header" />
+
+        <TextView
+            android:id="@+id/mahin_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hdr"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:includeFontPadding="false"
+            android:text="@string/zero_zero"
+            android:textColor="#FFD700"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            app:drawableLeftCompat="@drawable/mycoin" />
+
+        <TextView
+            android:id="@+id/demo_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hdr"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/balance"
+            android:textColor="@color/gold"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:drawableLeftCompat="@drawable/mycoin" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/balances_lottie"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/hdr"
+            android:layout_centerInParent="true"
+            android:paddingStart="25dp"
+            android:paddingEnd="0dp"
+            android:visibility="visible"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/balance_lottie" />
+    </RelativeLayout>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_below="@+id/mahin_top"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="-110dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:neumorph_backgroundColor="@color/white"
+        app:neumorph_shadowColorDark="#36000000"
+        app:neumorph_shadowColorLight="#36000000"
+        app:neumorph_shapeAppearance="@style/ShapeAppearance"
+        app:neumorph_shapeType="basin">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/green"
+        android:text="বুঝতে পেরেছি"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_below="@+id/view_pager"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_below="@+id/nextButton"
+        android:id="@+id/my_lotti"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/mahin_timer" />
+
+
+<!--_____________GONE LAYOUT____________-->
+
+    <RelativeLayout
+        android:id="@+id/congratulation_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/white">
+
+            <TextView
+                android:id="@+id/congrast"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/congratulations"
+                android:textSize="27sp"
+                android:textColor="@color/green"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_centerHorizontal="true"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/congrast_page_lottie"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/congrast"
+                android:layout_below="@+id/congrast"/>
+
+            <TextView
+                android:id="@+id/congrast_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/congrast_page_lottie"
+                android:layout_centerHorizontal="true"
+                android:text="Play Time: 01"
+                android:textColor="@color/green"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="25sp"
+                app:drawableStartCompat="@drawable/ic_baseline_touch_app_24"
+                app:drawableTint="@color/grey" />
+
+            <TextView
+                android:id="@+id/congrast_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/congrast_btn1"
+                android:layout_centerHorizontal="true"
+                android:textSize="24sp"
+                android:text="Earning Reward: 15 Taka"
+                android:textColor="@color/green"
+                android:fontFamily="@font/poppins_bold"
+                app:drawableStartCompat="@drawable/mycoin" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/coin_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/gold"
+            android:paddingHorizontal="15dp"
+            android:text="টাকা এবং প্লে টাইম সেভ করুন"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/final_lottie_reward"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/coins_fall"
+            />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            app:itemIconTint="@color/bottom_color_nav"
+            app:itemRippleColor="@null"
+            app:itemTextColor="@color/bottom_color_nav"
+            app:menu="@menu/bottom_nav_menu" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/white_smoke"/>
+
+    <item
+        android:gravity="center"
+        android:height="169px"
+        android:width="300px"
+        android:right="@dimen/edit_text_underline_elevation"
+        android:left="@dimen/edit_text_underline_elevation"
+        android:top="@dimen/edit_text_underline_elevation"
+        android:bottom="@dimen/edit_text_underline_elevation"
+        android:drawable="@drawable/first"
+        />
+
+
+
+</layer-list>
+

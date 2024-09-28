@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Home">
+
+    <include
+        android:id="@+id/header_homes"
+        layout="@layout/header_home" />
+
+    <TextView
+        android:id="@+id/home_txt"
+        android:layout_below="@+id/header_homes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_centerHorizontal="true"
+        android:text="Play to Win: +5 Taka"
+        android:textSize="25sp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppins_bold"
+        android:includeFontPadding="false"
+        />
+
+    <TextView
+        android:id="@+id/home_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_txt"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Step: 1 of 3"
+        android:textColor="@color/colorAccentDemo"
+        android:textSize="25sp"
+        android:visibility="visible" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/step_one_lottie"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/home_txt1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/mahin_timer" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/home_lottie"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/cartoon" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/final_lottie"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/cutebaby"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/step_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_button"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:transitionName="button_tran"
+        android:background="@drawable/line_shape"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center"
+        android:layout_below="@+id/home_lottie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="15dp"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@color/bottom_color_nav"
+        app:itemRippleColor="@null"
+        app:itemTextColor="@color/bottom_color_nav"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="10dp"
+    android:paddingEnd="2dp">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:src="@drawable/bc_img"
+    android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10sp">
+
+        <TextView
+            android:id="@+id/main_heading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:includeFontPadding="false"
+            android:text="@string/demo"
+            android:textColor="@color/sexy_blue"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10sp">
+        <CheckBox
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false" />
+
+        <TextView
+            android:id="@+id/tvHeading1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="3"
+            android:includeFontPadding="false"
+            android:text="@string/demo"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10sp">
+
+        <CheckBox
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false" />
+
+        <TextView
+            android:id="@+id/tvHeading2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:includeFontPadding="false"
+            android:text="@string/demo"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10sp">
+
+        <CheckBox
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false" />
+
+        <TextView
+            android:id="@+id/tvHeading3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:includeFontPadding="false"
+            android:text="@string/demo"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout4"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10sp">
+
+        <CheckBox
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false" />
+
+        <TextView
+            android:id="@+id/tvHeading4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:includeFontPadding="false"
+            android:text="@string/demo"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_bold" />
+    </LinearLayout>
+
+</RelativeLayout>

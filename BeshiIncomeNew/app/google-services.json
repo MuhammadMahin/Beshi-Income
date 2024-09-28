@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "981290152997",
+    "firebase_url": "https://pro-true-earning-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pro-true-earning",
+    "storage_bucket": "pro-true-earning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981290152997:android:0bf309efc3f2d5bce0bbcc",
+        "android_client_info": {
+          "package_name": "com.trueearning.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981290152997-65jsrfu4b5c5f7kfk5qomnd7oc3vfqgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeC-0i7P-H3PcKBD8aDRpMd8BGzuyGq6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981290152997-65jsrfu4b5c5f7kfk5qomnd7oc3vfqgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

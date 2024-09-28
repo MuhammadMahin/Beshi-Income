@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@color/white_smoke">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo_true_earning"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/wc"
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:transitionName="password_tran"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/journey"
+                android:textColor="@color/sexy_blue"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="15sp"
+                android:transitionName="username_tran"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/reg_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/sexy_blue"
+                    android:hint="@string/full_"
+                    android:textColorHint="@color/grey"
+                    android:transitionName="slogan_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/sexy_blue"
+                        android:drawableStart="@drawable/ic_baseline_person_24"
+                        android:drawablePadding="5dp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/reg_username"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/sexy_blue"
+                    android:hint="@string/us"
+                    android:textColorHint="@color/grey"
+                    android:transitionName="logo_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLength="15"
+                        android:textColor="@color/sexy_blue"
+                        android:fontFamily="@font/poppins_bold"
+                        android:drawableStart="@drawable/ic_baseline_manage_accounts_24"
+                        android:drawablePadding="5dp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/sexy_blue"
+                    android:hint="@string/referral_code"
+                    android:textColorHint="@color/grey">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLength="15"
+                        android:textColor="@color/green"
+                        android:fontFamily="@font/poppins_bold"
+                       android:textStyle="italic"
+                        android:drawableStart="@drawable/ic_baseline_gpp_maybe_24"
+                        android:drawablePadding="5dp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/reg_email"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/grey"
+                    app:boxStrokeColor="@color/sexy_blue"
+                    android:hint="@string/mail">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/sexy_blue"
+                        android:fontFamily="@font/poppins_bold"
+                        android:drawablePadding="5dp"
+                        android:drawableStart="@drawable/ic_baseline_mark_email_read_24"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/reg_phone"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/grey"
+                    android:transitionName="forgot_tran"
+                    app:boxStrokeColor="@color/sexy_blue"
+                    android:hint="@string/phone">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_baseline_phone_in_talk_24"
+                        android:drawablePadding="5dp"
+                        android:inputType="number"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/sexy_blue" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/reg_password"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/grey"
+                    app:boxStrokeColor="@color/sexy_blue"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/sexy_blue"
+                    android:hint="@string/psw"
+                    android:transitionName="logo_image">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:textColor="@color/sexy_blue"
+                        android:fontFamily="@font/poppins_bold"
+                        android:drawableStart="@drawable/ic_baseline_security_24"
+                        android:drawablePadding="5dp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/reg_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="@string/register"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:transitionName="login_signup_tran"/>
+
+            <Button
+                android:id="@+id/callLogIn"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:background="#00000000"
+                android:text="@string/go_login"
+                android:textSize="15sp"
+                android:textColor="@color/sexy_blue"
+                android:transitionName="button_tran"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_reg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:lottie_autoPlay="false"
+        android:visibility="invisible"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/mahin_timer"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UserProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/earning_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="200dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/green"
+                android:padding="15dp">
+
+
+                <TextView
+                    android:id="@+id/app_names"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/app_name_new"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/current_time"
+                    android:layout_below="@+id/app_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/time"
+                    android:textColor="@color/white_smoke"
+                    android:textSize="14sp"
+                    android:includeFontPadding="false"/>
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/mental" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/please_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/profile_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/please_login"
+                    android:textColor="@color/green"
+                    android:textSize="15sp"
+                    android:background="@drawable/button_shape"
+                    android:backgroundTint="@color/white"
+                    android:paddingHorizontal="15dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/profile_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/profile_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:includeFontPadding="false"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/profile_Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_name"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/profile_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:includeFontPadding="false"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/settings_icon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/ic_baseline_settings_24" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-65dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white_smoke"
+                    app:cardElevation="14dp"
+                    app:strokeColor="@color/white">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/imgV"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/money" />
+
+
+                        <TextView
+                            android:id="@+id/reward_point"
+                            android:visibility="invisible"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/poppins_bold"
+                            android:includeFontPadding="false"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="8dp"
+                            android:text="@string/zero_zero"
+                            android:textAlignment="center"
+                            android:textColor="@color/gold"
+                            android:textSize="25sp"
+                            android:textStyle="italic"
+                            android:background="@drawable/line_shape"
+                            android:backgroundTint="@color/green"
+                            app:drawableStartCompat="@drawable/mycoin" />
+
+                        <TextView
+                            android:id="@+id/prof_demo_balance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="@string/my_balance"
+                            android:textColor="@color/colorOnPrimaryDemo"
+                            android:textSize="14sp"
+                            android:visibility="visible"
+                            app:drawableLeftCompat="@drawable/mycoin"
+                            android:background="@drawable/button_shape"
+                            android:backgroundTint="@color/green"
+                            />
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/prof_balances_lottie"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_above="@+id/btm_balance"
+                            android:layout_centerInParent="true"
+                            android:visibility="visible"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/balance_lottie" />
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/prof_balances_lottie_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:visibility="invisible"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/stars" />
+
+                        <TextView
+                            android:id="@+id/btm_balance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:fontFamily="@font/poppins_bold"
+                            android:includeFontPadding="false"
+                            android:text="@string/available_taka"
+                            android:textColor="@color/green"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white_smoke"
+                    app:cardElevation="14dp"
+                    app:strokeColor="@color/white">
+
+                    <RelativeLayout
+                        android:id="@+id/my_play_times"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_baseline_wifi_protected_setup_24"
+                            />
+
+                        <TextView
+                            android:visibility="invisible"
+                            android:id="@+id/play_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/poppins_bold"
+                            android:includeFontPadding="false"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="8dp"
+                            android:text="@string/zero_zero"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="45sp"
+                            android:textStyle="italic"
+                            android:background="@drawable/line_shape"
+                            android:backgroundTint="@color/green"/>
+
+                        <TextView
+                            android:id="@+id/my_play_times_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/poppins_bold"
+                            android:includeFontPadding="false"
+                            android:text="@string/tap_for_playtimes"
+                            android:textColor="@color/green"
+                            android:textSize="12sp"
+                            android:visibility="visible"
+                            android:drawablePadding="5dp"
+                            app:drawableStartCompat="@drawable/ic_baseline_wifi_protected_setup_24" />
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/prof_balances_lottie_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:visibility="invisible"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/security" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:fontFamily="@font/poppins_bold"
+                            android:includeFontPadding="false"
+                            android:text="@string/ply"
+                            android:textColor="@color/green"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/go_withdraw_page_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/go_withdraw_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:backgroundTint="@color/green"
+                    android:paddingHorizontal="15dp"
+                    android:background="@drawable/button_shape"
+                    android:text="@string/withdraw1"
+                    android:textColor="@color/white_smoke"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/click_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/detail_rule"
+                    android:textColor="@color/green"
+                    android:textSize="18sp"
+                    android:visibility="visible"
+                    app:drawableEndCompat="@drawable/ic_baseline_settings_24"
+                    app:drawableTint="@color/green" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/go_to_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/click_details"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="@color/green"
+                    android:paddingHorizontal="15dp"
+                    android:text="@string/ply_now"
+                    android:textColor="@color/white_smoke"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp">
+                <TextView
+                    android:id="@+id/join_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/joining_date"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccentDemo"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="italic"
+                    app:drawableStartCompat="@drawable/ic_baseline_security_24" />
+                <TextView
+                    android:id="@+id/user_ip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_ip"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccentDemo"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="italic"
+                    app:drawableStartCompat="@drawable/ic_baseline_person_24" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/withdraw_history"
+                    android:textSize="22sp"
+                    android:textColor="@color/green"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="italic"
+                    app:drawableStartCompat="@drawable/ic_baseline_person_24" />
+
+                <TextView
+                    android:id="@+id/withdraw_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_00_00_taka"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccentDemo"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="italic"
+                    app:drawableStartCompat="@drawable/ic_baseline_person_24" />
+                <TextView
+                    android:id="@+id/withdraw_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/withdraw_date"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccentDemo"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="italic"
+                    app:drawableStartCompat="@drawable/ic_baseline_person_24" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <!--GONE LAYOUT-->
+    <RelativeLayout
+        android:id="@+id/withdraw_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_smoke"
+        android:padding="20dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/mtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/available_taka"
+            android:textColor="@color/grey"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/close_withdraw_window"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/x"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/reward_point2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mtxt"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_bold"
+            android:includeFontPadding="false"
+            android:text="@string/zero_zero"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:drawableLeftCompat="@drawable/mycoin" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_above="@id/input_box"
+            android:checked="true"
+            android:text="@string/_1200"
+            android:textColor="@color/green"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_box"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/withdraw_coins_btn"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/e_g"
+            android:textColorHint="@color/grey"
+            app:boxStrokeColor="@color/sexy_blue">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_phone_in_talk_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/poppins_bold"
+                android:inputType="textVisiblePassword"
+                android:textColor="@color/sexy_blue" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/withdraw_coins_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_shape"
+            android:text="@string/withdraw"
+            android:textColor="@color/white_smoke"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:paddingHorizontal="15dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/detail_rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/withdraw_coins_btn"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/how_to_request1"
+                android:textColor="@color/colorAccentDemo"
+                android:textSize="16sp"
+                app:drawableEndCompat="@drawable/ic_baseline_settings_24"
+                app:drawableTint="@color/green" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@color/bottom_color_nav"
+        app:itemRippleColor="@null"
+        app:itemTextColor="@color/bottom_color_nav"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>
